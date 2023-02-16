@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e79296f-cb85-4cbd-8654-c844b9586a87" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1e79296f-cb85-4cbd-8654-c844b9586a87" name="Changes" comment="Rest Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/REST/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/REST/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/REST/RestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/REST/RestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +44,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/xampp/htdocs/php_pro",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "C:/Users/3M/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Test1.test">
-    <configuration name="Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RestTest">
+    <configuration name="RestTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="REST" />
       <extension name="coverage">
         <pattern>
@@ -61,7 +58,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="REST" />
-      <option name="MAIN_CLASS_NAME" value="REST.Test1" />
+      <option name="MAIN_CLASS_NAME" value="REST.RestTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -69,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RestTest.TC_02_Get" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="REST" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +75,62 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="REST" />
-      <option name="MAIN_CLASS_NAME" value="REST.Test1" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="REST.RestTest" />
+      <option name="METHOD_NAME" value="TC_02_Get" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTest.TC_05_Patch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="REST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="REST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="REST" />
+      <option name="MAIN_CLASS_NAME" value="REST.RestTest" />
+      <option name="METHOD_NAME" value="TC_05_Patch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTest.TC_06_Get_Patch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="REST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="REST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="REST" />
+      <option name="MAIN_CLASS_NAME" value="REST.RestTest" />
+      <option name="METHOD_NAME" value="TC_06_Get_Patch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTest.TC_07_Post" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="REST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="REST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="REST" />
+      <option name="MAIN_CLASS_NAME" value="REST.RestTest" />
+      <option name="METHOD_NAME" value="TC_07_Post" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -89,8 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test1.test" />
-        <item itemvalue="TestNG.Test1" />
+        <item itemvalue="TestNG.RestTest" />
+        <item itemvalue="TestNG.RestTest.TC_07_Post" />
+        <item itemvalue="TestNG.RestTest.TC_02_Get" />
+        <item itemvalue="TestNG.RestTest.TC_06_Get_Patch" />
+        <item itemvalue="TestNG.RestTest.TC_05_Patch" />
       </list>
     </recent_temporary>
   </component>
@@ -103,6 +157,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675947968589</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rest Test">
+      <created>1675977192890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675977192891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,5 +177,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rest Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest Test" />
   </component>
 </project>
